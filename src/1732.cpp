@@ -72,6 +72,7 @@ namespace task1732
 
     void PrefixF::newString()
     {
+        sp.clear();
         last = false;
     }
 
