@@ -27,7 +27,7 @@ int main()
         std::ifstream fin("../input/0000.in");
         if (!(fin.is_open()))
         {
-            std::cerr << "The input file isn't found!\n";
+            std::cerr << "The input file not found!\n";
             break;
         }
         std::ofstream fout("../output/0000.out");
